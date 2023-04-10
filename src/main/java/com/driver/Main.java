@@ -8,7 +8,8 @@ public class Main
 
         //when we try to access the name variable of classs RWOnly we get error, since we specified it as private.
         //and private properties can only be access within the class, and we are trying to access it from another class.
-        System.out.println(rwOnly.name);
+
+        //System.out.println(rwOnly.name);
 
         rwOnly.setName("Radhika");
 
